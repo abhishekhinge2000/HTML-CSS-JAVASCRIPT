@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <div id="player">
+        <h2>Simple Music Player</h2>
+        <select id="playlist" onchange="changeTrack()">
+          <option value="song1.mp3">Song 1</option>
+          <option value="song2.mp3">Song 2</option>
+          <!-- Add more songs as needed -->
+        </select>
+        <audio id="audioPlayer" controls>
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
